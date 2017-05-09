@@ -6,13 +6,13 @@ The data can be downloaded from https://grouplens.org/datasets/movielens/.
 
 There are 5 python scripts inside and they are:
 
-(1)*recommender_system* main recommendation scripts, determine the similar users and their most interested movies thus give recommendaation
+(1)*recommender_system.py* main recommendation scripts, determine the similar users and their most interested movies thus give recommendaation
 
-(2)*recommend* implements the recommendation logic
+(2)*recommend.py* implements the recommendation logic
 
-(3)*distance* calculte the similarities (distances) between users
+(3)*distance.py* calculte the similarities (distances) between users
 
-(4)*input_file* open files inside ml-100k for further processing
+(4)*input_file.py* open files inside ml-100k for further processing
 
-(5)*nearestNeighbours* calculate the most similar user to our target customer, can be used in the initial testing
+(5)*nearestNeighbours.py* calculate the most similar user to our target customer, can be used in the initial testing
 
