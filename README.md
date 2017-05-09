@@ -2,6 +2,8 @@
 
 This pet project is to use MovieLens dataset to recommend movies to users.
 
+The data can be downloaded from https://grouplens.org/datasets/movielens/.
+
 There are 5 python scripts inside and they are:
 
 (1)*recommender_system* main recommendation scripts, determine the similar users and their most interested movies thus give recommendaation
