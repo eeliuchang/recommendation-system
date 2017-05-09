@@ -11,7 +11,6 @@ def recommend(pref, person, distance_metric):
 	for p in pref:
 		if (p != person):
 			sim = distance(pref, person, p, distance_metric)
-			print(sim)
 			for item in pref[p]:
 				if (item not in pref[person] and sim > threshold):
 					if (item not in weighted_totals):
@@ -27,8 +26,8 @@ def recommend(pref, person, distance_metric):
 
 	return reverse_list
 
-pref = {1:{'python':1, 'java':2, 'c':3}, 2: {'python':3, 'scala':2, 'java':1}, 3: {'python':2, 'c++': 1, 'java': 3}}
-sol =  recommend(pref, 1, cosine_correlation)
-print(sol)
+#pref = {1:{'python':1, 'java':2, 'c':3}, 2: {'python':3, 'scala':2, 'java':1}, 3: {'python':2, 'c++': 1, 'java': 3}}
+#sol =  recommend(pref, 1, cosine_correlation)
+#print(sol)
 
 				
