@@ -20,6 +20,3 @@ path_to_item = "./ml-100k/u.item"
 result = recommender_system(path_to_data, path_to_item, '196', cosine_correlation)
 #for elem in result[:10]:
 #	print(elem)
-
-
-
