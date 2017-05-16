@@ -16,3 +16,6 @@ There are 5 python scripts inside and they are:
 
 (5) *nearestNeighbours.py* calculate the most similar user to our target customer, can be used in the initial testing
 
+(6) *group_recommendation* provide recommendation for group of people based on the importance of individual opinions
+
+
